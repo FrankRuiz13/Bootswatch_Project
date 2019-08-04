@@ -31,6 +31,13 @@ body {
 .side--navbar__links {
     color: white;
 }
+
+.side--navbar__links:hover,
+.side--navbar__links:active {
+    color: firebrick;
+    text-decoration: none;
+}
+
 .carousel--container {
     margin: 100px;
     text-align: center;
