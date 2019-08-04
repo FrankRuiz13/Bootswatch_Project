@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: auto;
+}
+
 body {
     background-size: cover;
     background-attachment: fixed;
@@ -13,13 +17,28 @@ body {
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
 }
 
+.side--navbar {
+    margin: 30px;
+    padding: 2rem;
+    background: slategray;
+    display: inline-block;
+    height: 50vh;
+    z-index: 100;
+    overflow: auto;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.side--navbar__links {
+    color: white;
+}
 .carousel--container {
-    margin: 200px;
+    margin: 100px;
     text-align: center;
+    z-index: 0;
 }
 
 img {
-    width: 500px;
+    width: 400px;
     height: 300px;
     padding: 5px;
     background: lightslategray;
