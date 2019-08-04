@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    margin: 30px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+}
+
+.carousel--container {
+    margin: 200px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    background: lightslategray;
+    border: 2px solid firebrick;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+    
