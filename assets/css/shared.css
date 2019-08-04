@@ -17,15 +17,18 @@ body {
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
 }
 
+
+
 .side--navbar {
     margin: 30px;
-    padding: 2rem;
+    padding: 1rem;
     background: slategray;
     display: inline-block;
-    height: 50vh;
-    z-index: 100;
-    overflow: auto;
+    height: 75vh;
+    clear: both;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    position: absolute;
+   
 }
 
 .side--navbar__links {
@@ -39,9 +42,9 @@ body {
 }
 
 .carousel--container {
-    margin: 100px;
+    display: inline- block;
+    margin: 300px;
     text-align: center;
-    z-index: 0;
 }
 
 img {
@@ -54,3 +57,14 @@ img {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
 }
     
+.main--footer {
+    margin: 30px 30px 0px 30px;
+    padding: 1rem;
+    background: rgba(128, 0, 0, 0.8);
+    text-align: center;
+    box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.5);
+}
+
+.main--footer__links {
+    color: white;
+}
